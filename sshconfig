@@ -1,0 +1,8 @@
+Host *
+	ServerAliveInterval 30
+Host moore
+	HostName moore17.cs.purdue.edu
+	User mill1630
+Host borg
+	HostName borg17.cs.purdue.edu
+	User mill1630

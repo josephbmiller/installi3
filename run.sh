@@ -8,3 +8,6 @@ echo "exec feh --bg-scale ~/wolf.png"
 cp terminatorconfig ~/.config/terminator/config
 cp i3status.conf ~/.i3status.conf
 cp wolf.png ~/wolf.png
+mkdir ~/.ssh
+cp sshconfig ~/.ssh/config
+
