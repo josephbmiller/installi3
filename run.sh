@@ -10,4 +10,6 @@ cp i3status.conf ~/.i3status.conf
 cp wolf.png ~/wolf.png
 mkdir ~/.ssh
 cp sshconfig ~/.ssh/config
-
+mkdir /etc/X11/xorg.conf.d
+cp /usr/share/X11/xorg.conf.d/50-synaptics.conf /etc/X11/xorg.conf.d
+cat synapticsextra >> /etc/X11/xorg.conf.d/50-synaptics.conf
